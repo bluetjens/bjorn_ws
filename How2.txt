@@ -1,0 +1,44 @@
+# Please view the video follow_hand_demo_290716 for a demonstration of the starting process.
+
+# Terminal 1
+  rosclean purge -y
+  roscore
+
+# Terminal 2
+# Start the server on Linux for Windows Machine to publish the Perception Neuron states
+  $ rosrun rosserial_server socket_node
+
+# On Windows Machine
+  Start Perception Neuron GUI ("Axis Neuron x64.exe")
+  Put on and connect the suit
+  Check in the settings of the "Axis Neuron x64.exe" to enable broadcasting of positions
+  Open "config.txt" in "perception-neuron-ros-master_b12"->"windows"
+  Write the IP-adress of your ROS and windows machine.
+  Start PerceptioNeuronROSserial.exe
+    Maybe restart it
+
+# Terminal 3
+# Start the UR10 simulation
+  $ roslaunch tum_ics_ur10_bringup bringUR10.launch
+
+# Terminal 3
+  # Only for use with a real robot, builds a connection between the robot and the ROS machine
+    $ roslaunch tum_ics_ur_robot_manager robot_script_manager_ur10.launch
+
+#Terminal 4
+  # For simulation
+      $ roslaunch tum_ics_ur_robot_controllers testJointCtrl_ur10.launch
+
+  # Real Robot (WARNING THE ROBOT IS NOW ACTIVE AND LISTENING TO THE TOPIC /joint_desired_cmd)
+  # HAND in the red button, EYES on the robot!!!
+      $ roslaunch tum_ics_ur_robot_controllers testJointCtrl_ur10.launch ROBOT:=real
+
+# Terminal 5
+# Start to publish the data from the Rosserial_server to tf
+  $ rosrun perc_neuron_tf_broadcaster perc_neuron_tf_broadcaster_node
+
+#Terminal 6
+# Start the main program to transfer the tf data from the Perception Neuron onto the robot.
+  $ roslaunch follow_hand ur5_perc.launch
+
+
