@@ -64,11 +64,12 @@ public:
                                               "/perception_neuron/data_2",
                                               "/perception_neuron/data_3"};
 
+        // 3 = number of topics
         subscribers_.resize(3);
 
         //list topic_names is exactly 3 big, s.t. it runs from 0 to 2
         //boost::bind lets us give i as a variable to call function callback_i
-        for(int i=0; i <subscribers_.size(); i++){
+        for(int i=0; i < subscribers_.size(); i++){
             subscribers_.at(i)=nh_.subscribe<std_msgs::Float64MultiArray>(topic_names.at(i), 5, boost::bind(&NeuronBroadcaster::callback_i,this, _1,i));
         }
 
@@ -190,6 +191,7 @@ private:
 
 int main(int argc, char** argv){
     ROS_INFO_STREAM("front of main");
+    // TODO
     ROS_WARN("ros_warn.");
     ROS_INFO_STREAM("ros_info_stream.");
     ROS_ERROR_STREAM("ros_error_stream." );
