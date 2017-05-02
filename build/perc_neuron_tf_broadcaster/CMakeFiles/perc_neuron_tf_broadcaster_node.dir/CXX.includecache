@@ -11,13 +11,17 @@ ros/ros.h
 -
 ros/package.h
 -
-std_msgs/Float64MultiArray.h
+std_msgs/Float32MultiArray.h
 -
 tf/tf.h
 -
 tf/transform_broadcaster.h
 -
 Eigen/Dense
+-
+chrono
+-
+ros/callback_queue.h
 -
 
 /opt/ros/indigo/include/XmlRpcDecl.h
@@ -299,6 +303,36 @@ message_traits.h
 /opt/ros/indigo/include/ros/message_traits.h
 ros/time.h
 /opt/ros/indigo/include/ros/ros/time.h
+
+/opt/ros/indigo/include/ros/callback_queue.h
+ros/callback_queue_interface.h
+/opt/ros/indigo/include/ros/ros/callback_queue_interface.h
+ros/time.h
+/opt/ros/indigo/include/ros/ros/time.h
+common.h
+/opt/ros/indigo/include/ros/common.h
+boost/shared_ptr.hpp
+-
+boost/thread/mutex.hpp
+-
+boost/thread/shared_mutex.hpp
+-
+boost/thread/condition_variable.hpp
+-
+boost/thread/tss.hpp
+-
+list
+-
+deque
+-
+
+/opt/ros/indigo/include/ros/callback_queue_interface.h
+boost/shared_ptr.hpp
+-
+common.h
+/opt/ros/indigo/include/ros/common.h
+ros/types.h
+/opt/ros/indigo/include/ros/ros/types.h
 
 /opt/ros/indigo/include/ros/common.h
 stdint.h
@@ -898,7 +932,7 @@ ros/forwards.h
 
 /opt/ros/indigo/include/rosconsole/macros_generated.h
 
-/opt/ros/indigo/include/std_msgs/Float64MultiArray.h
+/opt/ros/indigo/include/std_msgs/Float32MultiArray.h
 string
 -
 vector

@@ -384,6 +384,19 @@ rosserial_server_socket_node/fast:
 .PHONY : rosserial_server_socket_node/fast
 
 #=============================================================================
+# Target rules for targets named rosserial_server_udp_socket_node
+
+# Build rule for target.
+rosserial_server_udp_socket_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosserial_server_udp_socket_node
+.PHONY : rosserial_server_udp_socket_node
+
+# fast build rule for target.
+rosserial_server_udp_socket_node/fast:
+	$(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build
+.PHONY : rosserial_server_udp_socket_node/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -707,6 +720,19 @@ tf_generate_messages_py: cmake_check_build_system
 tf_generate_messages_py/fast:
 	$(MAKE) -f perc_neuron_tf_broadcaster/CMakeFiles/tf_generate_messages_py.dir/build.make perc_neuron_tf_broadcaster/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named testJointControlPublisher
+
+# Build rule for target.
+testJointControlPublisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testJointControlPublisher
+.PHONY : testJointControlPublisher
+
+# fast build rule for target.
+testJointControlPublisher/fast:
+	$(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build
+.PHONY : testJointControlPublisher/fast
 
 #=============================================================================
 # Target rules for targets named moveit_msgs_generate_messages_cpp
@@ -1033,6 +1059,19 @@ visualization_msgs_generate_messages_py/fast:
 	$(MAKE) -f ur_kinematics/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make ur_kinematics/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
 .PHONY : visualization_msgs_generate_messages_py/fast
 
+#=============================================================================
+# Target rules for targets named follow_hand_node
+
+# Build rule for target.
+follow_hand_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 follow_hand_node
+.PHONY : follow_hand_node
+
+# fast build rule for target.
+follow_hand_node/fast:
+	$(MAKE) -f follow_hand/CMakeFiles/follow_hand_node.dir/build.make follow_hand/CMakeFiles/follow_hand_node.dir/build
+.PHONY : follow_hand_node/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1064,6 +1103,7 @@ help:
 	@echo "... rosserial_msgs_generate_messages_py"
 	@echo "... rosserial_server_serial_node"
 	@echo "... rosserial_server_socket_node"
+	@echo "... rosserial_server_udp_socket_node"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
@@ -1089,6 +1129,7 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
+	@echo "... testJointControlPublisher"
 	@echo "... moveit_msgs_generate_messages_cpp"
 	@echo "... moveit_msgs_generate_messages_lisp"
 	@echo "... moveit_msgs_generate_messages_py"
@@ -1114,6 +1155,7 @@ help:
 	@echo "... visualization_msgs_generate_messages_cpp"
 	@echo "... visualization_msgs_generate_messages_lisp"
 	@echo "... visualization_msgs_generate_messages_py"
+	@echo "... follow_hand_node"
 .PHONY : help
 
 

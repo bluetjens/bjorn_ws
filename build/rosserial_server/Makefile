@@ -304,6 +304,20 @@ rosserial_server_socket_node/fast:
 .PHONY : rosserial_server_socket_node/fast
 
 # Convenience name for target.
+rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/rule:
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/rule
+.PHONY : rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/rule
+
+# Convenience name for target.
+rosserial_server_udp_socket_node: rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/rule
+.PHONY : rosserial_server_udp_socket_node
+
+# fast build rule for target.
+rosserial_server_udp_socket_node/fast:
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build
+.PHONY : rosserial_server_udp_socket_node/fast
+
+# Convenience name for target.
 rosserial_server/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
 	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosserial_server/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosserial_server/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
@@ -435,6 +449,30 @@ src/socket_node.cpp.s:
 	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/src/socket_node.cpp.s
 .PHONY : src/socket_node.cpp.s
 
+src/udp_socket_node.o: src/udp_socket_node.cpp.o
+.PHONY : src/udp_socket_node.o
+
+# target to build an object file
+src/udp_socket_node.cpp.o:
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/src/udp_socket_node.cpp.o
+.PHONY : src/udp_socket_node.cpp.o
+
+src/udp_socket_node.i: src/udp_socket_node.cpp.i
+.PHONY : src/udp_socket_node.i
+
+# target to preprocess a source file
+src/udp_socket_node.cpp.i:
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/src/udp_socket_node.cpp.i
+.PHONY : src/udp_socket_node.cpp.i
+
+src/udp_socket_node.s: src/udp_socket_node.cpp.s
+.PHONY : src/udp_socket_node.s
+
+# target to generate assembly for a file
+src/udp_socket_node.cpp.s:
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/src/udp_socket_node.cpp.s
+.PHONY : src/udp_socket_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -458,6 +496,7 @@ help:
 	@echo "... rosserial_msgs_generate_messages_py"
 	@echo "... rosserial_server_serial_node"
 	@echo "... rosserial_server_socket_node"
+	@echo "... rosserial_server_udp_socket_node"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
@@ -471,6 +510,9 @@ help:
 	@echo "... src/socket_node.o"
 	@echo "... src/socket_node.i"
 	@echo "... src/socket_node.s"
+	@echo "... src/udp_socket_node.o"
+	@echo "... src/udp_socket_node.i"
+	@echo "... src/udp_socket_node.s"
 .PHONY : help
 
 

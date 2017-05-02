@@ -13,6 +13,8 @@ rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/src/socket_node.cpp
  /opt/ros/indigo/include/ros/advertise_service_options.h
  /opt/ros/indigo/include/ros/assert.h
  /opt/ros/indigo/include/ros/builtin_message_traits.h
+ /opt/ros/indigo/include/ros/callback_queue.h
+ /opt/ros/indigo/include/ros/callback_queue_interface.h
  /opt/ros/indigo/include/ros/common.h
  /opt/ros/indigo/include/ros/console.h
  /opt/ros/indigo/include/ros/console_backend.h

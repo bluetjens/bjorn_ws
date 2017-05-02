@@ -873,7 +873,7 @@ TMATH_INCLUDE_DIR:PATH=/usr/include/tumtools
 TMATH_LIBRARY:FILEPATH=/usr/local/lib/libMath.so
 
 //The directory containing a CMake configuration file for TMath.
-TMath_DIR:PATH=/usr/share/cmake/TMath
+TMath_DIR:PATH=TMath_DIR-NOTFOUND
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
@@ -886,6 +886,9 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
+
+//Path to a file.
+_file_name:FILEPATH=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_test/test/rosserial_python_socket.test
 
 //The directory containing a CMake configuration file for actionlib.
 actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
@@ -973,7 +976,7 @@ kdl_conversions_DIR:PATH=/opt/ros/indigo/share/kdl_conversions/cmake
 kdl_parser_DIR:PATH=/opt/ros/indigo/share/kdl_parser/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libtf2.so
+lib:FILEPATH=/opt/ros/indigo/lib/libkdl_conversions.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
@@ -1041,14 +1044,91 @@ roslib_DIR:PATH=/opt/ros/indigo/share/roslib/cmake
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
 
+//Value Computed by CMake
+rosserial_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial
+
+//Value Computed by CMake
+rosserial_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial
+
+//Value Computed by CMake
+rosserial_arduino_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_arduino
+
+//Value Computed by CMake
+rosserial_arduino_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_arduino
+
+//Value Computed by CMake
+rosserial_client_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_client
+
+//The directory containing a CMake configuration file for rosserial_client.
+rosserial_client_DIR:PATH=/home/bjornl/ros/workspaces/bjorn_ws/devel/share/rosserial_client/cmake
+
+//Value Computed by CMake
+rosserial_client_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_client
+
+//Value Computed by CMake
+rosserial_embeddedlinux_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_embeddedlinux
+
+//Value Computed by CMake
+rosserial_embeddedlinux_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_embeddedlinux
+
+//Value Computed by CMake
+rosserial_mbed_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_mbed
+
+//Value Computed by CMake
+rosserial_mbed_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_mbed
+
+//Value Computed by CMake
+rosserial_msgs_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_msgs
+
 //The directory containing a CMake configuration file for rosserial_msgs.
 rosserial_msgs_DIR:PATH=/opt/ros/indigo/share/rosserial_msgs/cmake
 
 //Value Computed by CMake
+rosserial_msgs_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_msgs
+
+//Value Computed by CMake
+rosserial_python_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_python
+
+//The directory containing a CMake configuration file for rosserial_python.
+rosserial_python_DIR:PATH=/home/bjornl/ros/workspaces/bjorn_ws/devel/share/rosserial_python/cmake
+
+//Value Computed by CMake
+rosserial_python_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_python
+
+//Value Computed by CMake
 rosserial_server_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial_server
+
+rosserial_server_DIR:PATH=
 
 //Value Computed by CMake
 rosserial_server_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial_server
+
+//Value Computed by CMake
+rosserial_test_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_test
+
+//Value Computed by CMake
+rosserial_test_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_test
+
+//Value Computed by CMake
+rosserial_tivac_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_tivac
+
+//Value Computed by CMake
+rosserial_tivac_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_tivac
+
+//Value Computed by CMake
+rosserial_windows_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_windows
+
+//Value Computed by CMake
+rosserial_windows_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_windows
+
+//Value Computed by CMake
+rosserial_xbee_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/rosserial/rosserial_xbee
+
+//Value Computed by CMake
+rosserial_xbee_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/rosserial/rosserial_xbee
+
+//The directory containing a CMake configuration file for rostest.
+rostest_DIR:PATH=/opt/ros/indigo/share/rostest/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
@@ -1125,7 +1205,8 @@ ur5_moveit_plugin_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libmoveit_rdf_l
 //Value Computed by CMake
 ur_kinematics_BINARY_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/build/ur_kinematics
 
-ur_kinematics_DIR:PATH=
+//The directory containing a CMake configuration file for ur_kinematics.
+ur_kinematics_DIR:PATH=/home/bjornl/ros/workspaces/bjorn_ws/devel/share/ur_kinematics/cmake
 
 //Value Computed by CMake
 ur_kinematics_SOURCE_DIR:STATIC=/home/bjornl/ros/workspaces/bjorn_ws/src/ur_kinematics
@@ -1258,7 +1339,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=7
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1312,7 +1393,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.6()]
 //Details about finding Qt4
 FIND_PACKAGE_MESSAGE_DETAILS_Qt4:INTERNAL=[/usr/bin/qmake-qt4][/usr/lib/x86_64-linux-gnu/qt4/bin/moc][/usr/lib/x86_64-linux-gnu/qt4/bin/rcc][/usr/lib/x86_64-linux-gnu/qt4/bin/uic][/usr/include/qt4][/usr/lib/x86_64-linux-gnu][/usr/lib/x86_64-linux-gnu/libQtCore.so][v4.8.6()]
 //Details about finding TMATH
-FIND_PACKAGE_MESSAGE_DETAILS_TMATH:INTERNAL=[/usr/include/tumtools][/usr/local/lib/libMath.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_TMATH:INTERNAL=[/usr/include/tumtools][/usr/lib/tumtools/libMath.so][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
@@ -1360,6 +1441,8 @@ QT_DOC_DIR-ADVANCED:INTERNAL=1
 QT_HEADERS_DIR:INTERNAL=/usr/include/qt4
 //ADVANCED property for variable: QT_IMPORTS_DIR
 QT_IMPORTS_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: QT_LIBRARY_DIR
+QT_LIBRARY_DIR-ADVANCED:INTERNAL=1
 //Qt library dir
 QT_LIBRARY_DIR:INTERNAL=/usr/lib/x86_64-linux-gnu
 //ADVANCED property for variable: QT_LINGUIST_EXECUTABLE

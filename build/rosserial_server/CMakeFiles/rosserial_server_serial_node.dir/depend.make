@@ -12,6 +12,8 @@ rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o: /opt/ros/indigo/include/ros/advertise_service_options.h
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o: /opt/ros/indigo/include/ros/assert.h
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o: /opt/ros/indigo/include/ros/builtin_message_traits.h
+rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o: /opt/ros/indigo/include/ros/callback_queue.h
+rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o: /opt/ros/indigo/include/ros/callback_queue_interface.h
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o: /opt/ros/indigo/include/ros/common.h
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o: /opt/ros/indigo/include/ros/console.h
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o: /opt/ros/indigo/include/ros/console_backend.h

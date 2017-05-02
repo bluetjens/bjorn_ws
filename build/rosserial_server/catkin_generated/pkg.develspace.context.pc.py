@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "roscpp;rosserial_msgs;topic_tools".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rosserial_server"
 PROJECT_SPACE_DIR = "/home/bjornl/ros/workspaces/bjorn_ws/devel"
-PROJECT_VERSION = "0.7.1"
+PROJECT_VERSION = "0.7.6"
