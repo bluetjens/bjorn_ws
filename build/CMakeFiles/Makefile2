@@ -617,21 +617,21 @@ clean: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_py.dir/clean
 # Target rules for target rosserial_server/CMakeFiles/rosserial_server_serial_node.dir
 
 # All Build rule for target.
-rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/roscpp_generate_messages_py.dir/all
-rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all
+rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/depend
 	$(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/bjornl/ros/workspaces/bjorn_ws/build/CMakeFiles  5
@@ -666,21 +666,21 @@ clean: rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/clean
 # Target rules for target rosserial_server/CMakeFiles/rosserial_server_socket_node.dir
 
 # All Build rule for target.
-rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
 rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/roscpp_generate_messages_py.dir/all
-rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all
+rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/depend
 	$(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/bjornl/ros/workspaces/bjorn_ws/build/CMakeFiles  6
@@ -715,21 +715,21 @@ clean: rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/clean
 # Target rules for target rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir
 
 # All Build rule for target.
-rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
 rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/roscpp_generate_messages_py.dir/all
-rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_lisp.dir/all
+rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/std_msgs_generate_messages_py.dir/all
+rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/all: rosserial_server/CMakeFiles/rosserial_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/depend
 	$(MAKE) -f rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build.make rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/bjornl/ros/workspaces/bjorn_ws/build/CMakeFiles  7
@@ -1576,11 +1576,11 @@ clean: perc_neuron_tf_broadcaster/CMakeFiles/tf_generate_messages_py.dir/clean
 # Directory level rules for directory joint_ctrl_publisher
 
 # Convenience name for "all" pass in the directory.
-joint_ctrl_publisher/all: joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/all
+joint_ctrl_publisher/all: joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/all
 .PHONY : joint_ctrl_publisher/all
 
 # Convenience name for "clean" pass in the directory.
-joint_ctrl_publisher/clean: joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/clean
+joint_ctrl_publisher/clean: joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/clean
 .PHONY : joint_ctrl_publisher/clean
 
 # Convenience name for "preinstall" pass in the directory.
@@ -1588,38 +1588,38 @@ joint_ctrl_publisher/preinstall:
 .PHONY : joint_ctrl_publisher/preinstall
 
 #=============================================================================
-# Target rules for target joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir
+# Target rules for target joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir
 
 # All Build rule for target.
-joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/all:
-	$(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/depend
-	$(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build
+joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/all:
+	$(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/depend
+	$(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/bjornl/ros/workspaces/bjorn_ws/build/CMakeFiles  8
-	@echo "Built target testJointControlPublisher"
-.PHONY : joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/all
+	@echo "Built target testJointCtrlPublisher"
+.PHONY : joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/all
 
 # Include target in all.
-all: joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/all
+all: joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/rule: cmake_check_build_system
+joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bjornl/ros/workspaces/bjorn_ws/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bjornl/ros/workspaces/bjorn_ws/build/CMakeFiles 0
-.PHONY : joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/rule
+.PHONY : joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/rule
 
 # Convenience name for target.
-testJointControlPublisher: joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/rule
-.PHONY : testJointControlPublisher
+testJointCtrlPublisher: joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/rule
+.PHONY : testJointCtrlPublisher
 
 # clean rule for target.
-joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/clean:
-	$(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/clean
-.PHONY : joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/clean
+joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/clean:
+	$(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/clean
+.PHONY : joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/clean
 
 # clean rule for target.
-clean: joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/clean
+clean: joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -2485,11 +2485,11 @@ follow_hand/preinstall:
 
 # All Build rule for target.
 follow_hand/CMakeFiles/follow_hand_node.dir/all: ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/all
+follow_hand/CMakeFiles/follow_hand_node.dir/all: ur_kinematics/CMakeFiles/ur3_kin.dir/all
 follow_hand/CMakeFiles/follow_hand_node.dir/all: ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/all
 follow_hand/CMakeFiles/follow_hand_node.dir/all: ur_kinematics/CMakeFiles/ur5_kin.dir/all
-follow_hand/CMakeFiles/follow_hand_node.dir/all: ur_kinematics/CMakeFiles/ur3_kin.dir/all
-follow_hand/CMakeFiles/follow_hand_node.dir/all: ur_kinematics/CMakeFiles/ur10_kin.dir/all
 follow_hand/CMakeFiles/follow_hand_node.dir/all: ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/all
+follow_hand/CMakeFiles/follow_hand_node.dir/all: ur_kinematics/CMakeFiles/ur10_kin.dir/all
 	$(MAKE) -f follow_hand/CMakeFiles/follow_hand_node.dir/build.make follow_hand/CMakeFiles/follow_hand_node.dir/depend
 	$(MAKE) -f follow_hand/CMakeFiles/follow_hand_node.dir/build.make follow_hand/CMakeFiles/follow_hand_node.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/bjornl/ros/workspaces/bjorn_ws/build/CMakeFiles  1

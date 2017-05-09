@@ -46,7 +46,7 @@
 /home/bjornl/ros/workspaces/bjorn_ws/build/rosserial_server/CMakeFiles/std_msgs_generate_messages_cpp.dir
 /home/bjornl/ros/workspaces/bjorn_ws/build/rosserial_server/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/bjornl/ros/workspaces/bjorn_ws/build/rosserial_server/CMakeFiles/std_msgs_generate_messages_py.dir
-/home/bjornl/ros/workspaces/bjorn_ws/build/joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir
+/home/bjornl/ros/workspaces/bjorn_ws/build/joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir
 /home/bjornl/ros/workspaces/bjorn_ws/build/CMakeFiles/tests.dir
 /home/bjornl/ros/workspaces/bjorn_ws/build/perc_neuron_tf_broadcaster/CMakeFiles/tf2_msgs_generate_messages_cpp.dir
 /home/bjornl/ros/workspaces/bjorn_ws/build/perc_neuron_tf_broadcaster/CMakeFiles/tf2_msgs_generate_messages_lisp.dir

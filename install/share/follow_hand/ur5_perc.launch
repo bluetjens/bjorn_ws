@@ -15,7 +15,7 @@
 	<param name="/qInnerElbowMin" value="20"/>
 	<param name="/qInnerElbowMax" value="120"/>
 	<param name="/maxVel" value="50"/>
-	<param name="/publishToController" value="1"/>
+        <param name="/publishToController" value="false"/>
   </node>
 
 </launch>

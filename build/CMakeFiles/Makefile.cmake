@@ -341,7 +341,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "perc_neuron_tf_broadcaster/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake"
   "perc_neuron_tf_broadcaster/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake"
   "perc_neuron_tf_broadcaster/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake"
-  "joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/DependInfo.cmake"
+  "joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/DependInfo.cmake"
   "ur_kinematics/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "ur_kinematics/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "ur_kinematics/CMakeFiles/moveit_msgs_generate_messages_py.dir/DependInfo.cmake"

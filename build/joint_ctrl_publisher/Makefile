@@ -150,25 +150,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/rule:
-	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f CMakeFiles/Makefile2 joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/rule
-.PHONY : joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/rule
+joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/rule:
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f CMakeFiles/Makefile2 joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/rule
+.PHONY : joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/rule
 
 # Convenience name for target.
-testJointControlPublisher: joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/rule
-.PHONY : testJointControlPublisher
+testJointCtrlPublisher: joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/rule
+.PHONY : testJointCtrlPublisher
 
 # fast build rule for target.
-testJointControlPublisher/fast:
-	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build
-.PHONY : testJointControlPublisher/fast
+testJointCtrlPublisher/fast:
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build
+.PHONY : testJointCtrlPublisher/fast
 
 src/testJointCtrlPublisher.o: src/testJointCtrlPublisher.cpp.o
 .PHONY : src/testJointCtrlPublisher.o
 
 # target to build an object file
 src/testJointCtrlPublisher.cpp.o:
-	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/src/testJointCtrlPublisher.cpp.o
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/src/testJointCtrlPublisher.cpp.o
 .PHONY : src/testJointCtrlPublisher.cpp.o
 
 src/testJointCtrlPublisher.i: src/testJointCtrlPublisher.cpp.i
@@ -176,7 +176,7 @@ src/testJointCtrlPublisher.i: src/testJointCtrlPublisher.cpp.i
 
 # target to preprocess a source file
 src/testJointCtrlPublisher.cpp.i:
-	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/src/testJointCtrlPublisher.cpp.i
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/src/testJointCtrlPublisher.cpp.i
 .PHONY : src/testJointCtrlPublisher.cpp.i
 
 src/testJointCtrlPublisher.s: src/testJointCtrlPublisher.cpp.s
@@ -184,7 +184,7 @@ src/testJointCtrlPublisher.s: src/testJointCtrlPublisher.cpp.s
 
 # target to generate assembly for a file
 src/testJointCtrlPublisher.cpp.s:
-	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/src/testJointCtrlPublisher.cpp.s
+	cd /home/bjornl/ros/workspaces/bjorn_ws/build && $(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/src/testJointCtrlPublisher.cpp.s
 .PHONY : src/testJointCtrlPublisher.cpp.s
 
 # Help Target
@@ -200,7 +200,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... testJointControlPublisher"
+	@echo "... testJointCtrlPublisher"
 	@echo "... src/testJointCtrlPublisher.o"
 	@echo "... src/testJointCtrlPublisher.i"
 	@echo "... src/testJointCtrlPublisher.s"

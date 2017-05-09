@@ -722,17 +722,17 @@ tf_generate_messages_py/fast:
 .PHONY : tf_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named testJointControlPublisher
+# Target rules for targets named testJointCtrlPublisher
 
 # Build rule for target.
-testJointControlPublisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testJointControlPublisher
-.PHONY : testJointControlPublisher
+testJointCtrlPublisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testJointCtrlPublisher
+.PHONY : testJointCtrlPublisher
 
 # fast build rule for target.
-testJointControlPublisher/fast:
-	$(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointControlPublisher.dir/build
-.PHONY : testJointControlPublisher/fast
+testJointCtrlPublisher/fast:
+	$(MAKE) -f joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build.make joint_ctrl_publisher/CMakeFiles/testJointCtrlPublisher.dir/build
+.PHONY : testJointCtrlPublisher/fast
 
 #=============================================================================
 # Target rules for targets named moveit_msgs_generate_messages_cpp
@@ -1129,7 +1129,7 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
-	@echo "... testJointControlPublisher"
+	@echo "... testJointCtrlPublisher"
 	@echo "... moveit_msgs_generate_messages_cpp"
 	@echo "... moveit_msgs_generate_messages_lisp"
 	@echo "... moveit_msgs_generate_messages_py"
