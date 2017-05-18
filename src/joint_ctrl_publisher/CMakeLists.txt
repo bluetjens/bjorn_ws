@@ -178,8 +178,8 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
-add_executable(testJointControlPublisher src/testJointCtrlPublisher.cpp)
-target_link_libraries(testJointControlPublisher ${QT_LIBRARIES} ${catkin_LIBRARIES} ${roscpp_LIBRARIES})
+add_executable(testJointCtrlPublisher src/testJointCtrlPublisher.cpp)
+target_link_libraries(testJointCtrlPublisher ${QT_LIBRARIES} ${catkin_LIBRARIES} ${roscpp_LIBRARIES})
 #add_dependencies(testJointControlPublisher ${tum_ics_ur_robot_msgs_EXPORTED_TARGETS})
 
 #############

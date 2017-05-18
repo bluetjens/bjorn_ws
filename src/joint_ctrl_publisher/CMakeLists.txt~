@@ -24,6 +24,7 @@ add_definitions(${EIGEN_DEFINITIONS})
 
 set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -w -Wno-cpp" )
 
+set(CMAKE_MODULE_PATH "/usr/share/tumtools/cmake") 
 find_package(TMath REQUIRED)
 add_definitions(${TMATH_DEFINITIONS})
 include_directories(${TMATH_INCLUDE_DIRS})
@@ -177,7 +178,7 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
-add_executable(testJointControlPublisher src/testJointCtrlPublisher.cpp)
+add_executable(testJointCtrlPublisher src/testJointCtrlPublisher.cpp)
 target_link_libraries(testJointControlPublisher ${QT_LIBRARIES} ${catkin_LIBRARIES} ${roscpp_LIBRARIES})
 #add_dependencies(testJointControlPublisher ${tum_ics_ur_robot_msgs_EXPORTED_TARGETS})
 
