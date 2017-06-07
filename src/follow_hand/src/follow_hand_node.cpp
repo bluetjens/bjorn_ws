@@ -100,7 +100,7 @@ struct tfPercNeuronInterface {
       tfListener;  // tf listener to data from external tf broadcaster
   tf::Transform transBaseLinkRightHand;  // goal Transform for IK calculations,
                                          // robot base_link to RightHand
-                                         // directly
+                                         // dpushIntoTransformArrayirectly
   tf::TransformBroadcaster
       tfBroadcaster;  // broadcasts goal transform to tf to visualize it in rviz
 
@@ -171,7 +171,7 @@ struct tfPercNeuronInterface {
           "are being published.");
       return -1;
     }
-    // Calculate transformation matrix from world to RightHand
+    // Calculate transformation matrix from base link to RightHand
     transBaseLinkRightHand =
         transformArray.at(0).inverseTimes(transformArray.at(1).operator*=(
             transformArray.at(2).operator*=(transHipsRightHand)));
@@ -469,7 +469,7 @@ int checkAndPublishDesJointValues(ros::NodeHandle& node,
       pubIntf.jointPosPublisher.publish(pubIntf.jointMsg);
       rate.sleep(); 
     }
-    // Copy last published Position to lastPubPosition
+    // Copy last published Position to serve as updated current position
     std::copy_n(publishPosition.begin(), publishPosition.size(),
                 lastPubPosition.begin());
     // ----------------------------
@@ -541,6 +541,7 @@ int initializeRobotToHand(ros::NodeHandle& nodeRef, pubIntf& pubIntf,
   while (success == -1) {
     success = tfPNIntf.getTransBaseLinkRightHand();  // returns 0 for success 
     // TODO: hier einen Sleep einbauen, damit sich das Programm bei fehlenden tf daten nicht in endlosschleife aufhängt
+    // oder return 1 schreiben damit intiializaerobottohand erneut started
   }
 
   // Get Goal Joint Positions by Inverse Kinematics
@@ -1040,7 +1041,7 @@ int main(int argc, char** argv) {
         printf("\nStart Reinitialization. Please hold your hand steady.");
         // now defaultRobotPosition is lastPubPosition
         robRestr.checkElbowRestriction = 0;  // Elbow restrictions are 
-				// only checked at the beginning of
+                // only checked at the beginning ofs
                 // initialization process if it's possible to reach goal
                 // position, because robot default position can be out of the
                 // restriction boundaries

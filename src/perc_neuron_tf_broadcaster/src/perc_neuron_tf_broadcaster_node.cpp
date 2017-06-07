@@ -86,7 +86,7 @@ public:
                                                     };
         std::string topic_name = "/perception_neuron/data";
         subscriber_ = nh_.subscribe<std_msgs::Float32MultiArray>(topic_name, 5, boost::bind(&NeuronBroadcaster::callback_i,this, _1));
-        //subscriber_ = nh_.subscribe<std_msgs::Float32MultiArray>(topic_name, 5, &NeuronBroadcaster::callback_i);
+
         /*
         std::vector<std::string> topic_names={"/perception_neuron/data_1",
                                               "/perception_neuron/data_2",
