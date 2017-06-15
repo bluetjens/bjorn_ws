@@ -87,13 +87,15 @@ View follow_hand_demo_290716.ogv for a demonstration of the starting process.
 ## Terminal 7
  ### Start the main program to transfer the tf data from the Perception Neuron onto the robot:
   For simulation mode:
-   ONLY without real robot!
-   Bypasses an additional safety controller and does not retrieve real robot initial position. 
-   Set /publishToController in ur10_perc.launch to false
-   # Publishes on /ur10_arm_joint_states
+   - ONLY without real robot!
+   - Bypasses an additional safety controller and does not retrieve real robot initial position. 
+   - Set /publishToController in ur10_perc.launch to false
+   - Publishes on /ur10_arm_joint_states
+  
   For real robot mode:
-   Set /publishToController in ur10_perc.launch to true
-   # Publishes on /joint_desired_cmd
-   Control safety restriction parameters in ur10_perc.launch
+   - Set /publishToController in ur10_perc.launch to true
+   - Publishes on /joint_desired_cmd
+   - Control safety restriction parameters in ur10_perc.launch
+  
   $ roslaunch follow_hand ur10_perc.launch
 
