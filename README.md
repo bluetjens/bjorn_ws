@@ -49,40 +49,36 @@ View follow_hand_demo_290716.ogv for a demonstration of the starting process.
  $ PerceptionNeuronROSserial.exe
 
 ## Assure real-time behavior of PerceptionNeuronROSserial.exe
- # Assign Real-Time task priority to PerceptionNeuronROSserial in 
- # Windows task-manager
-  Open task-manager -> Details -> PerceptionNeuronROSserial.exe or shell 
-   -> Priorität festlegen -> Echtzeit
- If possible, assign one CPU core to solely manage PerceptionNeuronROSserial.exe 
+ - Assign Real-Time task priority to PerceptionNeuronROSserial in Windows task-manager
+  - Open task-manager -> Details -> PerceptionNeuronROSserial.exe or shell -> Priorität festlegen -> Echtzeit
+ - If possible, assign one CPU core to solely manage PerceptionNeuronROSserial.exe 
 ## Known Bugs, caused by Axis Neuron Software Beta Version:    
- # Problem 1: PerceptionNeuronROSserial.exe shuts down due to registration fail 
- # in Perception Neuron server.
- # Solution 1: Restart until it works. 3-4 times. 		
- # Problem 2: Axis Neuron does not publish data
- # Solution 2: Open Axis Neuron->File -> Settings and close them again, because 
- # Axis Neuron wouldn’t broadcast data without having opened the settings.
+ - Problem 1: PerceptionNeuronROSserial.exe shuts down due to registration fail in Perception Neuron server.
+ - Solution 1: Restart until it works. 3-4 times.
+ - Problem 2: Axis Neuron does not publish data
+ - Solution 2: Open Axis Neuron->File -> Settings and close them again, because Axis Neuron wouldn’t broadcast data without having opened the settings.
 -------
 # Continue on ROS Machine:
 
 ## Terminal 3
- # Start to publish the data from the Rosserial_server to tf
-  $ rosrun perc_neuron_tf_broadcaster perc_neuron_tf_broadcaster_node
+ Start to publish the data from the Rosserial_server to tf
+  - $ rosrun perc_neuron_tf_broadcaster perc_neuron_tf_broadcaster_node
 
 ## Terminal 4
- # Start the UR10 simulation and rviz. simulation is listening to /ur10_arm_joint_states
-  $ roslaunch tum_ics_ur10_bringup bringUR10.launch
+ Start the UR10 simulation and rviz. simulation is listening to /ur10_arm_joint_states
+  - $ roslaunch tum_ics_ur10_bringup bringUR10.launch
 
 ## Terminal 5
- # Only for use with a REAL robot: build a connection between the robot and the ROS machine
-  $ roslaunch tum_ics_ur_robot_manager  robot_script_manager_ur10.launch
+ Only for use with a REAL robot: build a connection between the robot and the ROS machine
+  - $ roslaunch tum_ics_ur_robot_manager  robot_script_manager_ur10.launch
 
 ## Terminal 6
- # For simulation:
-  $ roslaunch tum_ics_ur_robot_controllers testJointCtrl_ur10.launch
- # Real Robot (WARNING the robot is now active) HAND on the red button, EYES on the robot!!!
-  $ roslaunch tum_ics_ur_robot_controllers testJointCtrl_ur10.launch ROBOT:=real
- # Follow steps in 13.1.2.2 if tum_ics_ur_robot_controllers isn’t existing or 
- # start follow_hand in simulation mode
+ For simulation:
+  - $ roslaunch tum_ics_ur_robot_controllers testJointCtrl_ur10.launch
+ Real Robot (WARNING the robot is now active) HAND on the red button, EYES on the robot!!!
+  - $ roslaunch tum_ics_ur_robot_controllers testJointCtrl_ur10.launch ROBOT:=real
+ 
+ Follow steps in thesis 13.1.2.2 if tum_ics_ur_robot_controllers isn’t existing or start follow_hand in simulation mode
 
 ## Terminal 7
  ### Start the main program to transfer the tf data from the Perception Neuron onto the robot:
