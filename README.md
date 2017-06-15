@@ -1,4 +1,4 @@
-# "Real-time teleoperation of industrial robots with the motion capture system Perception Neuron"
+# Real-time teleoperation of industrial robots with the motion capture system Perception Neuron
 Bachelor's thesis in Engineering Science
 
 Bjorn Lutjens (bjoern.luetjens@tum.de), Dr. Emmanuel Carlos Dean-Leon
@@ -16,6 +16,7 @@ For explanation, setup instruction and detailed exeuction instructions
 read thesis: luetjens_ics_thesis_perc_neuron.pdf
 
 View follow_hand_demo_290716.ogv for a demonstration of the starting process.
+
 -------
 # On ROS Machine
 
