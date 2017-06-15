@@ -14,8 +14,8 @@
   <node name="follow_hand" pkg="follow_hand" type="follow_hand_node" output="screen">
 	<param name="/qInnerElbowMin" value="20"/>
 	<param name="/qInnerElbowMax" value="120"/>
-	<param name="/maxVel" value="50"/>
-        <param name="/publishToController" value="false"/>
+	<param name="/maxVel" value="17"/>
+        <param name="/publishToController" value="true"/>
   </node>
 
 </launch>

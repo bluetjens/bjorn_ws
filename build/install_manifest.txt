@@ -54,7 +54,7 @@
 /home/bjornl/ros/workspaces/bjorn_ws/install/share/follow_hand/cmake/follow_handConfig.cmake
 /home/bjornl/ros/workspaces/bjorn_ws/install/share/follow_hand/cmake/follow_handConfig-version.cmake
 /home/bjornl/ros/workspaces/bjorn_ws/install/share/follow_hand/package.xml
-/home/bjornl/ros/workspaces/bjorn_ws/install/share/follow_hand/ur5_perc.launch
+/home/bjornl/ros/workspaces/bjorn_ws/install/share/follow_hand/ur10_perc.launch
 /home/bjornl/ros/workspaces/bjorn_ws/install/lib/pkgconfig/tum_ics_ur10_description.pc
 /home/bjornl/ros/workspaces/bjorn_ws/install/share/tum_ics_ur10_description/cmake/tum_ics_ur10_descriptionConfig.cmake
 /home/bjornl/ros/workspaces/bjorn_ws/install/share/tum_ics_ur10_description/cmake/tum_ics_ur10_descriptionConfig-version.cmake

@@ -48,6 +48,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/follow_hand" TYPE FILE FILES "/home/bjornl/ros/workspaces/bjorn_ws/src/follow_hand/launch/ur5_perc.launch")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/follow_hand" TYPE FILE FILES "/home/bjornl/ros/workspaces/bjorn_ws/src/follow_hand/launch/ur10_perc.launch")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

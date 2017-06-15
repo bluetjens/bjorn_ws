@@ -2,13 +2,6 @@ cmake_minimum_required(VERSION 2.8.3)
 project(follow_hand)
 # enable c++11
 set(CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS}")
-# set the path to the library folder
-# link_directories(/usr/share)
-#include(/usr/share/cmake/TMath/TMathConfig.cmake)
-
-# make it possible to find additional cmake modules (TMATH)
-#set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "/usr/share/tumtools/cmake")
-#set(CMAKE_MODULE_PATH /usr/share/tumtools/cmake)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -25,13 +18,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-#list(INSERT CMAKE_MODULE_PATH 0 "/usr/share/tumtools/cmake")
-#list(APPEND CMAKE_MODULE_PATH "@CMAKE_CURRENT_SOURCE_DIR@/cmake/Modules")
-#list(APPEND CMAKE_MODULE_PATH "/usr/share/tumtools/cmake")
-#SET(CMAKE_MODULE_PATH TMATH "/usr/share/tumtools/cmake")
-#SET(CMAKE_MODULE_PATH TMATH "include/tumtools")
 
-
+#find Tum::Tools::MathTools library
 set(CMAKE_MODULE_PATH "/usr/share/tumtools/cmake")
 find_package(TMath REQUIRED)
 find_package(Qt4 REQUIRED)
@@ -186,7 +174,7 @@ target_link_libraries(follow_hand_node
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
 install(FILES
-  launch/ur5_perc.launch
+  launch/ur10_perc.launch
 #   # myfile2
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
