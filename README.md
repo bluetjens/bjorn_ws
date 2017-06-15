@@ -9,12 +9,14 @@ Institute for Cognitive System, Technical University of Munich
 
 Sends PN motion data from Windows over rosserial to ROS. 
 ROS node receives data and publishes on tf. tf skeleton is transformed by
-inverse kinematics into UR10 joint states. Joint are checked of safety 
+inverse kinematics into UR10 joint states. Joints are checked on safety 
 regulations and published to UR10.
+
 For explanation, setup instruction and detailed exeuction instructions 
 read thesis: luetjens_ics_thesis_perc_neuron.pdf
-View follow_hand_demo_290716.ogv for a demonstration of the starting process.
 
+View follow_hand_demo_290716.ogv for a demonstration of the starting process.
+-------
 # On ROS Machine
 
 ## Terminal 1 
@@ -42,13 +44,13 @@ View follow_hand_demo_290716.ogv for a demonstration of the starting process.
 ## Start broadcast to ROS:
  - Open cmd window as administrator
  - Navigate to pn_ros_windows/…/windows/PerceptionNeuronROSserial.exe
- - Open windows/config.txt and adapt IP addresses for ROS Serial Server and Axis Neuron (found in Axis Neuron settings) in 
+ - Open windows/config.txt and adapt IP addresses for ROS Serial Server and Axis Neuron (found in Axis Neuron settings) 
  - $ PerceptionNeuronROSserial.exe
 
 ## Assure real-time behavior of PerceptionNeuronROSserial.exe
- - Assign Real-Time task priority to PerceptionNeuronROSserial in Windows task-manager
- -- Open task-manager -> Details -> PerceptionNeuronROSserial.exe or shell -> Priorität festlegen -> Echtzeit
- - If possible, assign one CPU core to solely manage PerceptionNeuronROSserial.exe 
+ Assign Real-Time task priority to PerceptionNeuronROSserial in Windows task-manager
+ - Open task-manager -> Details -> PerceptionNeuronROSserial.exe or shell -> Priorität festlegen -> Echtzeit
+ If possible, assign one CPU core to solely manage PerceptionNeuronROSserial.exe 
 ## Known Bugs, caused by Axis Neuron Software Beta Version:    
  - Problem 1: PerceptionNeuronROSserial.exe shuts down due to registration fail in Perception Neuron server.
  - Solution 1: Restart until it works. 3-4 times.
