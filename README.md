@@ -1,7 +1,8 @@
-# "Real-time teleoperation of industrial robots with the motion capture system 
-# Perception Neuron"
+# "Real-time teleoperation of industrial robots with the motion capture system Perception Neuron"
 Bachelor's thesis in Engineering Science
+
 Bjorn Lutjens (bjoern.luetjens@tum.de), Dr. Emmanuel Carlos Dean-Leon
+
 Institute for Cognitive System, Technical University of Munich
 
 ## Transmits motion data from Perception Neuron (PN) suit onto UR10
@@ -13,44 +14,40 @@ regulations and published to UR10.
 For explanation, setup instruction and detailed exeuction instructions 
 read thesis: luetjens_ics_thesis_perc_neuron.pdf
 View follow_hand_demo_290716.ogv for a demonstration of the starting process.
--------
+
 # On ROS Machine
 
 ## Terminal 1 
- $ rosclean purge -y 
- $ roscore
+ - $ rosclean purge -y 
+ - $ roscore
 
 ## For every new terminal:
- # Direct to workspace 
-  $ cd ~/ros/workspaces/personal_ws
- # Source bash file 
-  $ source personal_ws/devel/setup.bash 
+ Direct to workspace 
+  - $ cd ~/ros/workspaces/personal_ws
+ Source bash file 
+  - $ source personal_ws/devel/setup.bash 
 
 ## Terminal 2
- # Start the rosserial server on Linux, such that the module on Windows can 
- # transfer Perception Neuron data  
-  $ rosrun rosserial_server socket_node
+ Start the rosserial server on Linux, such that the module on Windows can transfer Perception Neuron data
+  - $ rosrun rosserial_server socket_node
 -------
 # On Windows Machine
 ## Start Perception Neuron GUI ("Axis Neuron x64.exe")
- # Play movement data:
-  Put on and connect the suit
-  Stand as far away from magnetic sources as possible
-  Calibrate the suit by following the software´s instructions in 
-   Perc_Neuron_manuals/AxisUserGuide.pdf 
-  Alternatively, test with recorded movement data: open and run sample 
-   recorded movements …/pickandplace.raw or Noitom/Axis Neuron/Motion Files/…
+ Play movement data:
+  - Put on and connect the suit
+  - Stand as far away from magnetic sources as possible
+  - Calibrate the suit by following the software´s instructions in Perc_Neuron_manuals/AxisUserGuide.pdf 
+  - Alternatively, test with recorded movement data: open and run sample recorded movements …/samplePNmove.raw or Noitom/Axis Neuron/Motion Files/…
 
 ## Start broadcast to ROS:
- Open cmd window as administrator
- Navigate to pn_ros_windows/…/windows/PerceptionNeuronROSserial.exe
- Open windows/config.txt and adapt IP addresses for ROS Serial Server 
- and Axis Neuron (found in Axis Neuron settings) in 
- $ PerceptionNeuronROSserial.exe
+ - Open cmd window as administrator
+ - Navigate to pn_ros_windows/…/windows/PerceptionNeuronROSserial.exe
+ - Open windows/config.txt and adapt IP addresses for ROS Serial Server and Axis Neuron (found in Axis Neuron settings) in 
+ - $ PerceptionNeuronROSserial.exe
 
 ## Assure real-time behavior of PerceptionNeuronROSserial.exe
  - Assign Real-Time task priority to PerceptionNeuronROSserial in Windows task-manager
-  - Open task-manager -> Details -> PerceptionNeuronROSserial.exe or shell -> Priorität festlegen -> Echtzeit
+ -- Open task-manager -> Details -> PerceptionNeuronROSserial.exe or shell -> Priorität festlegen -> Echtzeit
  - If possible, assign one CPU core to solely manage PerceptionNeuronROSserial.exe 
 ## Known Bugs, caused by Axis Neuron Software Beta Version:    
  - Problem 1: PerceptionNeuronROSserial.exe shuts down due to registration fail in Perception Neuron server.
